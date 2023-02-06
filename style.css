@@ -1,0 +1,1083 @@
+.back {
+  width: 100%;
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, rgba(22, 21, 22, 0.9) -7.87%, rgba(22, 21, 22, 0.6) 100%), url("./Rectangle 166.png");
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+}
+@media (max-width: 481px) {
+  .navbar .nav li {
+    display: none;
+  }
+  .navbar .img.imge:nth-child(2) {
+    display: none;
+  }
+  .navbar .second.sell:nth-child(1) {
+    display: none;
+  }
+}
+.navbar li {
+  display: none;
+}
+.navbar .second p {
+  display: none;
+}
+.navbar .second .sell:nth-child(1) {
+  display: none;
+}
+
+.nav {
+  margin-top: 30px;
+  margin: auto;
+}
+.nav ul {
+  gap: 30px;
+  align-items: baseline;
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  color: #D7D7D7;
+  transform: rotate(-0.08deg);
+}
+
+.img {
+  margin: auto;
+}
+.img .imge {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.second {
+  display: flex;
+  align-items: first baseline;
+  margin-top: 30px;
+  margin: auto;
+  gap: 30px;
+}
+.second p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 90px;
+  /* or 562% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.second select {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 90px;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+@media (max-width: 481px) {
+  .text {
+    display: none;
+  }
+}
+.text .dub {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.text .bay {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.icon {
+  margin-left: 1300px;
+  margin-top: 165px;
+}
+
+.ic {
+  text-align: center;
+}
+
+.ground {
+  background-color: black;
+}
+
+.photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+}
+.photo .img {
+  position: relative;
+}
+.photo .rent {
+  position: absolute;
+  z-index: 1;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  margin-left: 20px;
+}
+.photo .rent h5 {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.photo .rent p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.photo .rent .p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.photo .most {
+  width: 80%;
+  margin-left: 35px;
+}
+.photo .most input {
+  width: 400px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.photo .most .po {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 90px;
+  /* or 129% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.photo .most .but {
+  background: #33B7BC;
+  border-radius: 10px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 120px;
+  padding: 10px 30px;
+}
+.photo p {
+  color: #D7D7D7;
+}
+.photo i {
+  color: red;
+}
+.photo .vec {
+  position: relative;
+  display: flex;
+}
+.photo .vec .v {
+  margin: auto;
+}
+.photo .vec .v .audi {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  align-items: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.photo .vec .rs6 {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  color: #646464;
+}
+.photo .vec .div {
+  margin-left: 100px;
+}
+.photo .vec .lamb {
+  margin-left: 50px;
+}
+.photo .vec .mamb {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  align-items: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.photo .vec .vid {
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+.photo .vec .lanc {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  align-items: center;
+  color: #33B7BC;
+}
+.photo .vec .ev {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  color: #049393;
+}
+.photo .vect {
+  position: relative;
+  top: 50px;
+}
+.photo .vect .img1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px solid white;
+}
+.photo .vect .src {
+  width: 2px;
+  height: 400px;
+  border: 2px solid grey;
+  border-color: grey;
+  background-color: #646464;
+}
+.photo .vect .alt {
+  position: absolute;
+  top: 200px;
+  background-color: white;
+}
+.photo .vect .tal {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(17, 7, 27);
+  border-radius: 20px;
+}
+@media (max-width: 481px) {
+  .photo {
+    width: 0px;
+    display: none;
+  }
+}
+
+.background {
+  background: black;
+  padding-top: 20px;
+}
+.background .middle {
+  color: #FFFFFF;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130px;
+  /* or 325% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F2F2F2;
+}
+@media (max-width: 481px) {
+  .background .middle p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+@media (max-width: 481px) {
+  .background img {
+    width: 450px;
+  }
+}
+@media (max-width: 481px) {
+  .background .rew p {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  margin-left: 8px;
+  flex-wrap: wrap;
+}
+@media (max-width: 481px) {
+  .flex .png img {
+    width: 450px;
+  }
+  .flex .widt img {
+    width: 450px;
+  }
+  .flex .urus .lop {
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .flex .irus .lok {
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
+
+.rok {
+  position: relative;
+}
+
+.urus {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 250px;
+  bottom: 0;
+  margin-left: 10px;
+}
+.urus .lop {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.urus .but {
+  background: linear-gradient(4.23deg, #161516 -7.57%, rgba(22, 21, 22, 0) 40.28%);
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 50px;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  border-color: #33B7BC;
+}
+
+.irus {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 310px;
+  bottom: 0;
+  margin-left: 10px;
+}
+.irus .lok {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.irus .bot {
+  background: linear-gradient(4.23deg, #161516 -7.57%, rgba(22, 21, 22, 0) 40.28%);
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  border-color: #33B7BC;
+}
+
+.cent {
+  text-align: center;
+}
+.cent .bat {
+  background: #33B7BC;
+  border-radius: 10px;
+  font-family: "Stolzl";
+  font-style: normal;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 15px 55px;
+  color: #FFFFFF;
+}
+
+.black-first {
+  background: black;
+}
+.black-first .about p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 140px;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media (max-width: 481px) {
+  .black-first .about p {
+    font-weight: 500;
+    font-size: 80px;
+  }
+}
+.black-first .cars .am {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.black-first .cars .mba {
+  color: #FFFFFF;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+  margin-right: 200px;
+  color: #FFFFFF;
+}
+@media (max-width: 481px) {
+  .black-first .cars .mba {
+    margin-right: 0px;
+  }
+}
+.black-first .cars .ceo {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+  margin-right: 200px;
+  color: #DBDBDB;
+}
+@media (max-width: 481px) {
+  .black-first .cars .ceo {
+    margin-right: 0px;
+  }
+}
+
+.grid {
+  width: 1216px;
+  margin: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid .flec {
+  align-items: baseline;
+  display: flex;
+  gap: 15px;
+}
+.grid .flec .eight {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  border-radius: 3px solid #22ECF3;
+  color: #22ECF3;
+}
+.grid .flec .yar {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.grid p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  color: #DBDBDB;
+}
+@media (max-width: 481px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.poto img {
+  width: 100%;
+}
+
+.rew p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.rectang {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rectang img {
+  width: 370px;
+}
+.rectang .class {
+  position: relative;
+}
+.rectang .class .p164 {
+  position: absolute;
+  left: 140px;
+  top: 238px;
+}
+.rectang .class .p164 img {
+  width: 80px;
+}
+@media (max-width: 481px) {
+  .rectang .pito img {
+    display: none;
+  }
+  .rectang .class img {
+    display: none;
+  }
+  .rectang .luck img {
+    width: 225px;
+  }
+  .rectang .lucky img {
+    width: 225px;
+  }
+}
+
+.from .fore {
+  display: flex;
+}
+@media (max-width: 481px) {
+  .from .fore .our {
+    display: none;
+  }
+  .from .fore .ina {
+    display: none;
+  }
+  .from .fore .each {
+    display: none;
+  }
+}
+.from .fore img {
+  width: 500px;
+}
+.from .fore .our {
+  position: relative;
+}
+.from .fore .our p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.from .fore .ina {
+  position: relative;
+}
+.from .fore .ina p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.from .fore .each {
+  position: relative;
+}
+.from .fore .each p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.from .no {
+  display: flex;
+}
+.from .no img {
+  width: 500px;
+}
+.from .no .thecar {
+  position: relative;
+}
+.from .no .thecar p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.from .no .tech {
+  position: relative;
+}
+.from .no .tech p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.from .no .have {
+  position: relative;
+}
+.from .no .have p {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+@media (max-width: 481px) {
+  .from .no .thecar {
+    display: none;
+  }
+  .from .no .tech {
+    display: none;
+  }
+  .from .no .have {
+    display: none;
+  }
+}
+
+.any {
+  margin: auto;
+  margin-top: 10px;
+}
+.any p {
+  font-weight: 500;
+  font-size: 65px;
+  display: flex;
+  text-align: start;
+  color: #FFFFFF;
+}
+.any input {
+  background: linear-gradient(90.75deg, #1C1C1C 0.65%, rgba(27, 27, 27, 0.4) 107.06%);
+  border-radius: 10px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 70px;
+  display: flex;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #707070;
+  margin-top: 0px;
+  padding: 0px 100px;
+}
+.any .type input {
+  padding: 30px 100px;
+}
+.any .send {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: black;
+  color: #FFFFFF;
+  padding: 15px 130px;
+  border: 2px solid #33B7BC;
+  border-radius: 10px;
+}
+
+.ask {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 481px) {
+  .ask .use img {
+    display: none;
+  }
+}
+
+.get {
+  width: 600px;
+  margin: auto;
+  margin-top: 100px;
+}
+.get .up {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 36px;
+  /* or 78% */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.get .that {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #868686;
+}
+@media (max-width: 481px) {
+  .get {
+    margin-left: 10px;
+  }
+  .get .up {
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+    font-size: 39.5px;
+  }
+  .get .that {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+.email input {
+  background: #2B282B;
+  opacity: 0.4;
+  border-radius: 10px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #868686;
+  padding: 18px 45px;
+}
+@media (max-width: 481px) {
+  .email input {
+    padding: 18px 100px;
+    text-align: center;
+  }
+}
+
+.bon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.bon button {
+  background: #33B7BC;
+  border-radius: 10px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 18px 45px;
+  color: #FFFFFF;
+}
+@media (max-width: 481px) {
+  .bon {
+    grid-template-columns: 1fr;
+  }
+  .bon button {
+    padding: 18px 185px;
+  }
+}
+
+.color {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130px;
+  /* or 325% */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  color: #414141;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media (max-width: 481px) {
+  .color {
+    align-items: center;
+  }
+  .color .e {
+    display: none;
+  }
+}
+
+.end {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 25px;
+}
+.end .clap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.end .clop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 481px) {
+  .end {
+    grid-template-columns: 1fr;
+  }
+  .end .clop {
+    grid-template-columns: 1fr;
+  }
+}
+.end .cust {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.end .k {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #E2E2E2;
+}
+.end .flok {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+}
+@media (max-width: 481px) {
+  .end .flok {
+    display: none;
+  }
+}
+.end .flok .limon {
+  background: #22ECF3;
+  width: 20px;
+  height: 20px;
+  border: 10px solid #22ECF3;
+  border-radius: 20px;
+  text-align: center;
+}
+.end .flok .apple {
+  background: lightgreen;
+  width: 20px;
+  height: 20px;
+  border: 10px solid lightgreen;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.call .a {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  text-align: end;
+  color: #FFFFFF;
+  border: 2px solid #33B7BC;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.call .st {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  /* or 142% */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.call .inp {
+  display: flex;
+}
+.call .inp input {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+  background: linear-gradient(90.75deg, #1C1C1C 0.65%, rgba(27, 27, 27, 0.4) 107.06%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.call .inp button {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #33B7BC;
+  border-radius: 10px;
+}
+
+.pait {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  padding: 10px;
+  opacity: 0.2;
+}
+@media (max-width: 481px) {
+  .pait {
+    display: none;
+  }
+}
+
+.ande {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (max-width: 481px) {
+  .ande {
+    display: none;
+  }
+}
+.ande .pol p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  /* or 375% */
+  display: flex;
+  align-items: center;
+  color: #33B7BC;
+}
+.ande .alll p {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  /* or 375% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #525252;
+}
+.ande .res img {
+  color: #33B7BC;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
